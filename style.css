@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    
+
+}
+body{
+    background: linear-gradient(45deg red, blue);
+}
+.navigation {
+    background-color: #313131;
+    height: 12vh;
+
+
+    .left img {
+        /* background-color: red; */
+        height: 50px;
+        width: autp;
+    }
+
+}
+
+.main{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 34px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 0;
+    /* background-color: rgb(183, 213, 239); */
+
+    .right {
+        width: 50%;
+        padding-inline: 40px;
+        /* margin-inline: 4px; */
+
+        h1 {
+            font-size: 54px;
+            text-transform: uppercase;
+            text-shadow: 1px 2px#515151;
+
+
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: bolder;
+        }
+    }
+}
+
+.info{
+    text-align: center;
+
+    i,p{
+        font-size: 30px;
+        font-weight: bolder;
+        padding: 5px 15px;
+    }
+
+    .submit{
+        width: 25%;
+        margin: 10px 20px;
+    }
+}
+
+
+.about {
+    /* background-color: red; */
+    /* width: 70vw; */
+    align-items: center;
+    text-align: center;
+    padding: 0 15%;
+    margin-top: 10%;
+
+    h2 {
+        font-size: 34px;
+        text-transform: uppercase;
+
+        
+    }
+
+    p {
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .speaker-heading{
+        margin-top: 5%;
+    }
+}
+
+.speakers {
+    margin: 50px 0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.speaker {
+    img {
+        width: 60vh;
+        height: 38vh;
+        /* border-radius: 40%; */
+
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: bolder;
+
+    }
+
+    p {
+        font-weight: bold;
+        text-transform: capitalize;
+
+        a {
+            text-decoration: none;
+
+        }
+    }
+}
+
+.topics {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+    padding-inline: 10px;
+    /* border: 2px solid violet; */
+
+    h2 {
+        font-size: 30px;
+    }
+
+    ul li {
+        text-transform: capitalize;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+}
+
+.registration {
+    /* text-align: center; */
+    /* margin: 50px 0; */
+    background: linear-gradient(45deg, #82befe, #fafafa);
+    /* background-color: red; */
+
+    h2{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    form {
+        /* display: flex;
+        flex-direction: column; */
+        width: 70%;
+        flex: 1 1 40rem;
+        border: var(--border);
+        padding: 2rem;
+
+        &:focus {
+                    color: #c6c3c3;
+
+                    
+
+                }
+
+
+    }
+
+    form label,
+    form input,
+    form textarea,
+    form button {
+        margin-bottom: 10px;
+        border: 6px;
+        padding: 6px;
+    }
+
+    form textarea {
+        /* background-color: #007BFF; */
+        height: 10vh;
+    }
+
+    form button {
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #51a5fe;
+        }
+    }
+
+}
+
+#desc3 checkbox{
+    background-color: red;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    margin-bottom: 10px;
+}
+
+form textarea {
+    /* background-color: #007BFF; */
+    height: 10vh;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #51a5fe;
+    }
+}
+
+
+
+
+button{
+    /* background-color: red; */
+    padding: 10px;
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease-in-out .2s;
+
+    &:hover {
+        background-color: #51a5fe;
+        scale: 1.05;
+    }
+}

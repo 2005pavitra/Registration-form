@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="registration">
+        <h2 id="register-heading">register for the event</h2>
+        <form action="" id="registration-form">
+            <label for="first-name">First-name :</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first-name">
+
+            <label for="last-name">Last-name :</label>
+            <input type="text" id="last-name" name="Last-name" required placeholder="Enter your last name">
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"
+             required>
+
+            <label for="Whatsapp number">Whatsapp Number :</label>
+            <input type="tel" id="phone-no" name="phone-no" placeholder="Enter your number" required>
+
+            <label for="branch">Branch :</label>
+            <input type="text" id="branch" name="branch" placeholder="Enter your branch" required>
+
+
+
+            <label for="college">College :</label>
+            <input type="text" id="college" name="college" placeholder="Enter your college" required>
+
+            <label for="enrollment-no">Enrollment no :</label>
+            <input type="text" id="enrollment-no" name="enrollment-no" placeholder="Enter your enrollment-no" required>
+
+            <label for="desc1"> Why do you want to come for event?</label>
+            <textarea name="desc1" id="desc1" required></textarea>
+
+            <label for="desc2">What is expectation from the event?</label>
+            <textarea name="desc2" id="desc2" required></textarea>
+
+            <label for="desc3">Do you want to get updates in future about event conducted by E-Cell
+                RGPV</label>
+            <input type="checkbox" id="desc3" name="desc3" >
+
+
+            <button type="submit">Register</button>
+        </form>
+
+
+        <div id="confirmation-message" style="display:none; text-align: center; font-size: 24px; font-weight: bolder;">
+            <p>Thank you for registering! Your spot at the event "From Idea to Empire" has been reserved.</p>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
